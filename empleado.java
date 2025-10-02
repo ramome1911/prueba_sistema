@@ -11,4 +11,19 @@ public abstract class empleado {
         this.salarioBase = salarioBase;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public double getSalarioBase() {
+        return salarioBase;
+    }
 }
